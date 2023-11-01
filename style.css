@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./images/coffee-beans-image.jpeg);
+  min-height: 100vh;
+}
+
+main {
+  width: 50%;
+  background-color: lightsalmon;
+  margin-inline: auto;
+  margin-top: 20px;
+}
+
+header {
+  text-align: center;
+  padding-top: 20px;
+}
+
+hr {
+  border: 2px solid red;
+  height: 2px;
+  width: 620px;
+  padding-right: 20px;
+  margin-left: 20px;
+  place-content: center;
+  text-align: center;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+}
+
+.cup {
+  text-align: center;
+  margin-top: 20px;
+  font-size: large;
+}
+.desserts {
+  text-align: center;
+}
+
+.item-1 {
+  display: inline;
+}
+.price-1 {
+  display: inline;
+}
+.first-item {
+  justify-content: space-between;
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.second-item {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.third-item {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.fourth-item {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.fifth-item {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.link {
+  color: black;
+  text-align: center;
+}
+
+.end {
+  text-align: center;
+  padding-top: 20px;
+}
